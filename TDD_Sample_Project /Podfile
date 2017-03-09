@@ -1,0 +1,19 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+platform :ios, ’9.0’
+use_frameworks!
+
+def shared_pods
+pod 'Nimble', '~> 6.0.0'
+pod "GCDWebServer", "~> 3.0"
+
+end
+
+target ‘TDD_Sample_ProjectTests’ do
+   shared_pods
+end
+
+
+target 'TDD_Sample_ProjectUITests' do
+    shared_pods
+end

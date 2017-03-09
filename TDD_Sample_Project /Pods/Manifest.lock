@@ -1,0 +1,17 @@
+PODS:
+  - GCDWebServer (3.3.3):
+    - GCDWebServer/Core (= 3.3.3)
+  - GCDWebServer/Core (3.3.3)
+  - Nimble (6.0.1)
+
+DEPENDENCIES:
+  - GCDWebServer (~> 3.0)
+  - Nimble (~> 6.0.0)
+
+SPEC CHECKSUMS:
+  GCDWebServer: 1c39a1f0763e4eb492bee021e4270fce097d3555
+  Nimble: 1527fd1bd2b4cf0636251a36bc8ab37e81da8347
+
+PODFILE CHECKSUM: 013707630d4b2afedca335be88085a0437055ac0
+
+COCOAPODS: 1.2.0.beta.1

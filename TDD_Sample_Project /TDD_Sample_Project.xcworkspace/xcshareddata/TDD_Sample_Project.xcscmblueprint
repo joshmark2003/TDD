@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "80DA1E58A493BE1BD5E1E6DB815F027BDE70F5ED",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "80DA1E58A493BE1BD5E1E6DB815F027BDE70F5ED" : 9223372036854775807,
+    "ABD53F5E2A3C04EDADC5CD2642B345F95F33AEBC" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "29C96465-B490-4E1D-A90A-336A632F064A",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "80DA1E58A493BE1BD5E1E6DB815F027BDE70F5ED" : "TDD_Sample_Project%20\/",
+    "ABD53F5E2A3C04EDADC5CD2642B345F95F33AEBC" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "TDD_Sample_Project",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "TDD_Sample_Project.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/bitbucket.org\/deepthi-bhattachar\/tddprototype.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "80DA1E58A493BE1BD5E1E6DB815F027BDE70F5ED"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/joshmark2003\/TDD.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "ABD53F5E2A3C04EDADC5CD2642B345F95F33AEBC"
+    }
+  ]
+}

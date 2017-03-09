@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16B2657" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="0ze-xh-e4g">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Start View Controller-->
+        <scene sceneID="b34-T3-rYJ">
+            <objects>
+                <viewController storyboardIdentifier="StartViewController" wantsFullScreenLayout="YES" id="0ze-xh-e4g" customClass="StartViewController" customModule="TDD_Sample_Project" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="vuN-ry-LHM"/>
+                        <viewControllerLayoutGuide type="bottom" id="iht-HY-WiO"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Pgy-Jc-bXr">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="H6v-1d-KWY">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="235"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="235" id="pt7-Bm-h2s"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gjR-JP-j9e">
+                                <rect key="frame" x="107" y="285" width="161" height="61"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="161" id="gOK-hz-iBa"/>
+                                    <constraint firstAttribute="height" constant="61" id="hGk-NH-W7j"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D74-Rc-E1q">
+                                <rect key="frame" x="107" y="354" width="161" height="61"/>
+                                <color key="backgroundColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="161" id="Vzf-XH-aau"/>
+                                    <constraint firstAttribute="height" constant="61" id="a3w-Pi-Wax"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="buttonPressedAction" destination="0ze-xh-e4g" eventType="touchUpInside" id="sqe-IA-nzN"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="D74-Rc-E1q" firstAttribute="centerX" secondItem="gjR-JP-j9e" secondAttribute="centerX" id="7aw-pt-x0T"/>
+                            <constraint firstItem="gjR-JP-j9e" firstAttribute="centerX" secondItem="H6v-1d-KWY" secondAttribute="centerX" id="BMG-xE-VUl"/>
+                            <constraint firstItem="H6v-1d-KWY" firstAttribute="leading" secondItem="Pgy-Jc-bXr" secondAttribute="leading" id="Fb6-Z3-4tK"/>
+                            <constraint firstAttribute="trailing" secondItem="H6v-1d-KWY" secondAttribute="trailing" id="Jhw-Qz-ydv"/>
+                            <constraint firstItem="H6v-1d-KWY" firstAttribute="top" secondItem="Pgy-Jc-bXr" secondAttribute="top" id="cXL-uA-MaE"/>
+                            <constraint firstItem="gjR-JP-j9e" firstAttribute="top" secondItem="H6v-1d-KWY" secondAttribute="bottom" constant="50" id="hFH-Ou-LqV"/>
+                            <constraint firstItem="D74-Rc-E1q" firstAttribute="top" secondItem="gjR-JP-j9e" secondAttribute="bottom" constant="8" id="rLQ-Kp-8Qn"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="imgProduct" destination="H6v-1d-KWY" id="Gqa-bF-u0R"/>
+                        <outlet property="lblName" destination="gjR-JP-j9e" id="SDb-Sb-66Z"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vuv-Sx-ZkS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="192.80000000000001" y="129.98500749625188"/>
+        </scene>
+    </scenes>
+</document>
